@@ -1,7 +1,12 @@
 {
-  "name": "shadcn-ui-monorepo",
+  "name": "monorepo-webapp-extension",
   "version": "0.0.1",
-  "private": true,
+  "private": false,
+  "description": "A full-stack monorepo featuring a Next.js web application with Supabase authentication and database integration, plus a browser extension",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/monorepo-webapp-extension.git"
+  },
   "scripts": {
     "build": "turbo build",
     "dev": "turbo dev",
