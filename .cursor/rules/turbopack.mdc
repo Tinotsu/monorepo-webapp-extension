@@ -1,0 +1,10 @@
+---
+description: Global rules for the monorepo
+globs:
+alwaysApply: true
+---
+
+## Command & Terminal 
+
+- Always run `pnpm build` in root and never in a workspace
+- Packages can be added in workspace from the root with `pnpm add lodash --filter=@myorg/utils`
